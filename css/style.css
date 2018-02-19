@@ -1,0 +1,187 @@
+/* Код для подключения шрифта в /css/stylename.css */
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MyriadProItalic";
+    src: url("../fonts/MyriadProItalic/MyriadProItalic.eot");
+    src: url("../fonts/MyriadProItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
+    url("../fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MyriadProSemiBold";
+    src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+    src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+    url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MyriadProBoldItalic";
+    src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot");
+    src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.woff") format("woff"),
+    url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MyriadProSemiBoldItalic";
+    src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot");
+    src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"),
+    url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    background-color: #fbfbfb;
+    font-family: "MyriadProRegular";
+    font-size: 16px;
+}
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+.box {
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+}
+.box-item {
+    box-sizing: border-box;
+    border-right: 1px solid #e8e8e8;
+    display: inline-block;
+    vertical-align: middle; 
+}
+.box-item:last-child{
+    border-right: none;
+}
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(../img/sprite.png);   
+}
+.icon-sign-up {
+    width: 18px;
+    height: 17px;
+    background-position: -3px -212px;
+}
+.icon-login {
+    width: 20px;
+    height: 20px;
+    background-position: -24px -212px;
+}
+.icon-search {
+    width: 26px;
+    height: 24px;
+    background-position: -32px -241px;
+}
+.icon-go {
+    width: 23px;
+    height: 23px;
+    background-position: -2px -240px;
+}
+.header {
+    padding-top: 40px;
+}
+.header .box{
+    border-radius: 3px;
+    padding: 12px 0 11px 0;
+}
+.search input {
+  border: none;
+  outline: none;  
+}
+.search .box{
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.search .box-item {
+    padding: 0 8px 0 8px;
+}
+.search-box .icon {
+    margin-right: 10px;
+}
+.search-box input {
+    box-sizing: border-box;
+    width: 210px;
+    color: #e7e7e7;
+    font-size: 15px;
+    font-family: 'MyriadProItalic';
+}
+.search .box{
+    display: inline-block;
+}
+input:-moz-placeholder{
+color:#e7e7e7;
+}
+input::-webkit-input-placeholder {
+    color:#e7e7e7;
+}
+.dropdown {
+    color:#cacaca;
+    font-size: 15px;
+}
+.dropdown-title {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-right: 31px;
+}
+
+.dropdawn-title:after{
+    content: '';
+    display: inline-block;
+    top:50%;
+    right: 0;
+    width: 0;
+    height: 0;
+    border: 9px solid transparent;
+    border-top-color: #dddddd;
+    vertical-align: middle;
+    margin-left: 13px;
+}
+.user-group {
+    text-align: center;
+    font-size: 0;
+    width: 161px;
+}
+.user-group .box-item {
+    width: 50%;
+    font-size: 14px;
+    color: #999999;
+}
+.user-group .box-item a{
+    text-decoration: none;
+    color: inherit;
+}
+.user-group .box-item .icon{
+    display: block;
+    margin: 0 auto 5px auto;
+}
