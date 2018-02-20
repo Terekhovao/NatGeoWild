@@ -64,6 +64,12 @@ body {
     font-family: "MyriadProRegular";
     font-size: 16px;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+
+}
 .container {
     width: 940px;
     margin: 0 auto;
@@ -106,6 +112,57 @@ body {
     width: 23px;
     height: 23px;
     background-position: -2px -240px;
+}
+
+.icon-news{
+    width: 28px;
+    height: 27px;
+    background-position: -36px -270px;
+}
+.icon-magazine{
+    width: 28px;
+    height: 27px;
+    background-position: -32px -303px;
+}
+.icon-maps{
+    width: 28px;
+    height: 27px;
+    background-position: -32px -335px;
+}
+.icon-sience{
+    width: 28px;
+    height: 27px;
+    background-position: -1px -368px;
+}
+.icon-education{
+    width: 28px;
+    height: 27px;
+    background-position: -2px -398px;
+}
+.icon-games{
+    width: 28px;
+    height: 27px;
+    background-position: -32px -427px;
+}
+.icon-events{
+    width: 28px;
+    height: 27px;
+    background-position: -32px -463px;
+}
+.icon-blogs{
+    width: 28px;
+    height: 27px;
+    background-position: 2px -495px;
+}
+.icon-explorers{
+    width: 28px;
+    height: 27px;
+    background-position: -1px -523px;
+}
+.icon-trips{
+    width: 28px;
+    height: 27px;
+    background-position: -1px -550px;
 }
 .header {
     padding-top: 40px;
@@ -155,8 +212,8 @@ input::-webkit-input-placeholder {
     padding-right: 31px;
 }
 
-.dropdawn-title:after{
-    content: '';
+ .dropdawn-title::after{
+    content: 'after';
     display: inline-block;
     top:50%;
     right: 0;
@@ -184,4 +241,64 @@ input::-webkit-input-placeholder {
 .user-group .box-item .icon{
     display: block;
     margin: 0 auto 5px auto;
+}
+.wrap{
+    border-right: 1px solid #eaeaea;
+}
+.sub-menu-wrap {
+    width: 174px;
+}
+.sub-menu {
+    font-size: 0;
+}
+.sub-menu li{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    width: 78px;
+    height: 70px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 7px;
+}
+.sub-menu li:before{
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+.sub-menu li a{
+    display: inline-block;
+    vertical-align: middle;
+}
+.sub-menu li:hover{
+    background-color: #555555;
+    color:white;
+}
+.sub-menu li:hover .icon-news{
+    background-position:  -1px -270px;
+}
+.sub-menu .menu-icon {
+    margin-bottom: 10px;
+    background:none ;
+}
+.menu li{
+    display: inline-block;
+    width: 117px;
+    vertical-align: top;
+    color: #555555;
+    font-size: 16px;
+    text-align: center;
+}
+.menu li a{
+    font-family:'MyriadProSemiBold';
+    display: block;
+}
+.menu li a:hover{
+    color:#fdcc05;
+    text-transform: uppercase;
+}
+.menu li a:hover .icon-home{
+    background-position: -32px 0;
 }
