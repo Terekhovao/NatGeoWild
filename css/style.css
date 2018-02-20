@@ -299,6 +299,30 @@ input::-webkit-input-placeholder {
     color:#fdcc05;
     text-transform: uppercase;
 }
-.menu li a:hover .icon-home{
-    background-position: -32px 0;
+.sub-menu li:hover .icon-magazine{
+    background-position: 1px -303px;
+}
+.sub-menu li:hover .icon-maps{
+    background-position: -2px -335px;
+}
+.sub-menu li:hover .icon-sience{
+    background-position: -26px -368px;
+}
+.sub-menu li:hover .icon-education{
+    background-position: -35px -398px;
+}
+.sub-menu li:hover .icon-games{
+    background-position: -1px -426px;
+}
+.sub-menu li:hover .icon-blogs{
+    background-position: -31px -496px;
+}
+.sub-menu li:hover .icon-events {
+    background-position: -2px -463px;
+}
+.sub-menu li:hover .icon-explorers{
+    background-position: -24px -524px;
+}
+.sub-menu li:hover .icon-trips{
+    background-position: -31px -550px;
 }
